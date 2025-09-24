@@ -1,16 +1,62 @@
-# project1
 
-A new Flutter project.
 
-## Getting Started
+Punjab E-Bus 🚌
 
-This project is a starting point for a Flutter application.
+A Flutter application prototype for a smart transit system in Punjab.
+This app demonstrates features like real-time route visualization, location selection, offline mode, and emergency support using OpenStreetMap with flutter_map.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🚀 Features
+
+🗺️ Interactive Map using OpenStreetMap tiles.
+
+📍 Set Current Location and Set Destination (simulated for now).
+
+➡️ Route Visualization between points (Golden Temple → PAU Gate).
+
+🔄 Offline Mode Toggle to simulate disconnected usage.
+
+🚨 Emergency Alert Dialog to notify authorities.
+
+🎫 Quick Access Menu for E-Ticketing & Queries.
+
+
+
+---
+
+
+🛠️ Tech Stack
+
+Framework: Flutter
+
+Mapping Library: flutter_map
+
+Geolocation: latlong2
+
+
+
+---
+
+📂 Project Structure
+
+lib/
+ ├── main.dart          # Entry point of the app
+ ├── TransitHomePage    # Main map + UI
+
+
+🌐 Future Enhancements
+
+✅ Real-time GPS integration for buses.
+
+✅ Dynamic route drawing based on user-selected stops.
+
+✅ Ticket booking with QR-based e-ticketing.
+
+✅ Push notifications for arrival updates.
+
+
+
+
+
