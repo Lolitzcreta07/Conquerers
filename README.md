@@ -1,6 +1,6 @@
 
 
-Punjab E-Bus 🚌
+Punjab E-Bus 🚌🌍
 
 A Flutter application prototype for a smart transit system in Punjab.
 This app demonstrates features like real-time route visualization, location selection, offline mode, and emergency support using OpenStreetMap with flutter_map.
@@ -46,6 +46,26 @@ lib/
  ├── TransitHomePage    # Main map + UI
 
 
+---
+
+🔧 Getting Started
+
+1. Clone the Repository
+
+git clone https://github.com/your-username/punjab-ebus.git
+cd punjab-ebus
+
+2. Install Dependencies
+
+flutter pub get
+
+3. Run the App
+
+flutter run
+
+
+---
+
 🌐 Future Enhancements
 
 ✅ Real-time GPS integration for buses.
@@ -56,6 +76,14 @@ lib/
 
 ✅ Push notifications for arrival updates.
 
+
+
+---
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open a PR or submit an issue.
 
 
 
